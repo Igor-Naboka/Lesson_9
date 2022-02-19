@@ -69,16 +69,72 @@ body {
   color: #787a80;
   padding-left: 24px;
 }
-.social {
-}
+
 .social-share {
   font-weight: 700;
 }
-.facebook-link {
-}
-.twitter-link {
-}
+.facebook-link,
+.twitter-link,
 .in-link {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.facebook-logo {
+  background: url("../img/index/vector/facebook.svg") center / auto no-repeat;
+}
+
+.twitter-logo {
+  background: url("../img/index/vector/twitter.svg") center / auto no-repeat;
+}
+
+.in-logo {
+  background: url("../img/index/vector/in.svg") center / auto no-repeat;
+}
+
+/* picture-block */
+
+.picture-block {
+  margin-bottom: 60px;
+}
+
+/* text-block */
+
+.text-block {
+  margin-bottom: 60px;
+}
+
+.text-block p:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.text-block p:nth-child(3),
+.text-block p:nth-child(4) {
+  margin-bottom: 48px;
+}
+
+.text-block-bold {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #1e212c;
+}
+.text-block-quotes {
+  padding-left: 58px;
+  background: url("../img/index/vector/braces.svg") 0 0 / auto no-repeat;
+}
+.text-block-ul {
+  margin-bottom: 24px;
+}
+
+.text-block-ul li {
+  padding-left: 32px;
+  background: url("../img/index/vector/check-mark.svg") 0 5px / auto no-repeat;
+}
+
+.text-block-ul li:not(:last-child) {
+  margin-bottom: 4px;
 }
 
 /* footer */
