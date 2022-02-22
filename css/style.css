@@ -143,3 +143,23 @@ body {
   min-height: 5px;
   margin-bottom: 20px;
 }
+
+.button {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #ff3f3a;
+  line-height: 1.6;
+  padding: 0 15px;
+  border-radius: 25px;
+  box-shadow: 0 0 15px 0 #424551;;
+}
+
+.button:hover {
+  color: #ff3029;
+  box-shadow: inset 0 0 5px 0 #1e212c52, 0 0 12px 0 #1e212c;
+}
+
+.button:active {
+  color: #ff0800;
+  box-shadow: inset 0 0 10px 0 #1e212c52, 0 0 5px 0 #1e212c;
+}
